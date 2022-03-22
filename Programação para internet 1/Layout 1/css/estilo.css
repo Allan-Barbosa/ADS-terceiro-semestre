@@ -2,9 +2,10 @@ header{
     display:flex;
     border: 1px solid black;
     height: 60px;
-    padding-left: 2%;
+    padding-left: 1rem;
+    padding-right: 2rem;
     align-items: center;
-    margin-bottom: 10px;
+    justify-content: space-between;
 }
 img{
     max-height:80%;
@@ -16,38 +17,37 @@ nav ul li{
     display: flex;
     justify-content: space-around;
 }
-.caixa-direita{
-    position: right;
-    margin-left: auto;
-    margin-right: 2%;
-}
 .caixa{
     margin-right: 15px;
     padding-right: 15px;
     border-right: 1px solid black;
 }
+.principal{
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    justify-content: space-between;
+}
 footer{
-    
-    margin-top: 10px;
     border: 1px solid black;
     height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
 }
 main{
-    padding-left: 20px;
-    padding-right: 35px;
     border: 1px solid black;
-    height: 557px;
-    width: 70.5%;
-    display: inline-block;
-    vertical-align: top;
+    padding-left: 1rem;
+    padding-right: 1.5rem;
+    width: 71.5%;
 }
 aside{
     border: 1px solid black;
-    height: 557px;
     width: 24.5%;
-    display: inline-block;
-    vertical-align: top;
-    float: right;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .azul{
     color:blue;
