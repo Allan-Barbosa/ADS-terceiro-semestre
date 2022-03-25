@@ -34,7 +34,8 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    bottom: 0;
+    position: absolute;
+    width: 98.75%;
 }
 main{
     border: 1px solid black;
