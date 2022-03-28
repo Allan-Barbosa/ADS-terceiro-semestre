@@ -1,3 +1,6 @@
+*{
+    box-sizing:border-box;
+}
 header{
     display:flex;
     border: 1px solid black;
@@ -35,13 +38,13 @@ footer{
     justify-content: center;
     align-items: center;
     position: absolute;
-    width: 98.75%;
+    width: 98.9%;
 }
 main{
     border: 1px solid black;
     padding-left: 1rem;
     padding-right: 1.5rem;
-    width: 71.5%;
+    width: 74.5%;
 }
 aside{
     border: 1px solid black;
